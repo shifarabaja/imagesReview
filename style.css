@@ -1,8 +1,74 @@
-<style>
-#looks {
-  background-color: lightblue;
-  color: black;
-  padding: 40px;
-  text-align: left;
+body { 
+font-family: Arial, sans-serif; 
+margin: 0; padding: 0; 
+background-color: #f4f4f4; 
+} 
+
+.container { 
+width: 80%; 
+margin: 0 auto; 
+padding: 20px; 
+} 
+
+header { 
+text-align: center; 
+margin-bottom: 20px; 
+} 
+
+header h1 { 
+font-size: 24px; 
+color: #000; 
+} 
+
+header h2 { 
+font-size: 
+20px; color: #333; 
+} 
+
+section.content { 
+display: flex; 
+justify-content: space-between; 
+margin-bottom: 20px; 
+} 
+
+.column { 
+width: 30%; 
+padding: 10px; 
+background-color: #fff; 
+border: 1px solid #ddd; 
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+} 
+
+.yellow-box { 
+background-color: #fffaaf; 
+} 
+
+section.quote { 
+text-align: center; 
+margin-bottom: 20px; 
+font-style: italic; 
+} 
+
+section.features { 
+display: flex; 
+justify-content: space-between; 
+} 
+
+.features .column { 
+width: 30%; 
+padding: 10px; 
+} 
+
+footer { 
+text-align: 
+center; 
+margin-top: 20px;
+} 
+
+footer h2 { 
+font-size: 20px;
+} 
+
+footer address {
+font-style: normal; line-height: 1.5;
 }
-</styles
