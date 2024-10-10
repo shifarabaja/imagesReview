@@ -73,6 +73,9 @@ font-style: normal; line-height: 1.5;
 }
 
 #green-box {
+  height: 100px;
+  width: 100%;
   text-align: center;
   background-color: #00ff00;
+  
 }
